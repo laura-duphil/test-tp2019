@@ -20,7 +20,7 @@ public class QuestionAChoixExclusifTest {
         float laReponse = q.getScoreForIndice(40);
         float mauvaiseReponse = (float) 0.0;
 
-        assertEquals("getScoreForIndice pose pb",bonneReponse,laReponse);
+        assertEquals("getScoreForIndice pose pb",bonneReponse,laReponse,0.1);
 
         //assertNotEquals("getScoreForIndice pose pb " + mauvaiseReponse,mauvaiseReponse,laReponse);
     }
